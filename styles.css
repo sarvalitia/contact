@@ -1,0 +1,164 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+.main{
+
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+
+
+}
+
+.pc{
+  color: white;
+
+}
+
+.t{
+text-align: center;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.main-1{
+
+  background-image: url(../images/srm.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+padding: 10rem;
+background-color: #ddd
+}
+
+.icon{
+float: left;
+  width: 2.5rem;
+  padding-bottom: 2rem;
+margin-right: 2rem;
+}
+
+.con{
+border-radius: 2.5rem;
+color: black;
+text-align: center;
+ margin: 2rem;
+
+  padding: 2%;
+  background-color: #dddd;
+}
+
+.pcontt{
+}
+
+
+.pcont{
+
+margin-top: 2%;
+  line-height: 1.5rem;
+
+
+}
+
+.iandt{
+  margin-left: 7%;
+  padding-top: 15%;
+}
+
+.social_icon{
+  padding-left: 0.5rem;
+}
+
+.social{
+  position: relative;
+margin-top: 15%;
+
+}
+.card{
+  border-radius: 2rem;
+  padding: 5%;
+  margin: 17%;
+}
+.v{
+  border-left: 1px solid black;
+  height: 500px;
+position: absolute;
+  top: 53%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .v {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .main-1{
+      padding: 0;
+    }
+}
+/* sponsors*/
+
+.spo-main{
+height:100%;
+}
+
+
+.spo-img{
+  background-image: url(../images/vishnu.JPG);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.st{
+  padding: 5rem 5rem 3rem 5rem;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+
+.s-p{
+  text-align: center;
+  padding: 3rem 8rem 8rem 8rem;
+
+}
+
+
+.si{
+  text-align: center;
+  width: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.car{
+  text-align: center;
+margin-top:10%;
+}
+
+.simage{
+  border-radius: 5rem;
+  background-color: black;
+  padding: 3%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+  width:250px;
+  height:250px;
+}
+
+.car-1{
+  padding: 5%;
+}
